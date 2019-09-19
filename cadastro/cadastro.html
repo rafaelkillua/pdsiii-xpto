@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../shared.css">
+  <link rel="stylesheet" href="cadastro.css">
+  <title>Cadastro - XPTO</title>
+</head>
+<body>
+  <header id="topo-site" class="Navbar__container">
+    <div class="Navbar__Logo_container">
+      <a href="../index.html"><img class="Navbar__Logo" src="http://www.xptoinformatica.com/img/xpto-home.png"></a>
+      <span class="Navbar__Logo_title">Software House</span>
+    </div>
+    
+    <nav class="Navbar__Links_container">
+      <ul class="Navbar__Links">
+        <li class="Navbar__Link_list_item"><a class="Navbar__Link" href="../index.html" class="active">HOME</a></li>
+        <li class="Navbar__Link_list_item"><a class="Navbar__Link" href="../quem-somos/quem-somos.html">QUEM SOMOS</a></li>
+        <li class="Navbar__Link_list_item"><a class="Navbar__Link" href="../servicos/servicos.html">SERVIÇOS</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="Wrapper">
+    <section class="Section">
+      <div class="Title">
+        Criar Conta
+      </div>
+      <div class="Signup">
+        <img class="Signup__Logo" src="http://flyrichinternational.com/employment/assets/images/blog/emptyclient.png">
+        <form class="Signup__Form" action="../index.html" method="POST">
+          <div class="Signup__Input_container">
+            <label for="nome" class="Signup__Input_label">Nome:</label>
+            <input id="nome" class="Signup__Input" name="nome" placeholder="Nome" required autofocus>
+          </div>
+          <div class="Signup__Input_container">
+            <label for="email" class="Signup__Input_label">Gênero:</label>
+            <select class="Signup__Input">
+              <option>Masculino</option>
+              <option>Feminino</option>
+              <option>Outros</option>
+            </select>
+          </div>
+          <div class="Signup__Input_container">
+            <label for="email" class="Signup__Input_label">E-mail:</label>
+            <input id="email" class="Signup__Input" type="email" name="email" placeholder="E-mail" required autofocus>
+          </div>
+          <div class="Signup__Input_container">
+            <label for="senha" class="Signup__Input_label">Senha:</label>
+            <input id="senha" class="Signup__Input" type="password" name="senha" placeholder="Senha" required>
+          </div>
+          <div class="Signup__Input_container">
+            <label for="confirmacao" class="Signup__Input_label">Confirmação:</label>
+            <input id="confirmacao" class="Signup__Input" type="password" name="confirmacao" placeholder="Confirmação" required>
+          </div>
+          <div class="Signup__Actions">
+            <button type="submit" class="Signup__Button_submit">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="Footer">
+    <a href="#" class="Footer__To_top_container"><img class="Footer__To_top" src="https://cdn2.iconfinder.com/data/icons/arrows-part-3-3/32/arrow-top-1-512.png"></a>
+    <div class="Footer__Social_media_container">
+      <div class="Footer__Social_media">Facebook</div>
+      <div class="Footer__Social_media">Instagram</div>
+      <div class="Footer__Social_media">Twitter</div>
+      <div class="Footer__Social_media">Youtube</div>
+    </div>
+    <div class="Footer__Copyright">2019 XPTO Ltda. | Termos de uso | Política de privacidade
+    </div>
+  </footer>
+</body>
+</html>

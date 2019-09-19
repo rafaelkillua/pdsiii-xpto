@@ -1,0 +1,91 @@
+*
+  box-sizing: border-box
+  font-size: 1rem
+
+html, body
+  margin: 0
+  padding: 0
+
+body
+  background-color: #eee
+  min-height: 100vh
+
+.Wrapper
+  background-color: #fff
+  margin: 2rem
+  display: flex
+  flex-flow: wrap
+
+.Navbar
+  &__container
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0.5rem 4rem
+    z-index: 1
+    border-bottom: 1px solid #ccc
+    background-color: #0B8AD9
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
+  &__Logo
+    height: 2rem
+    &_container
+      display: flex
+      align-items: center
+    &_title
+      margin-left: 2rem
+      font-size: 1.5rem
+      color: white
+      font-weight: bold
+  &__Links
+    display: flex
+  &__Link
+    text-decoration: none
+    margin-left: 1rem
+    color: white
+    font-weight: bold
+    padding: 0.5rem 1rem
+    &:hover:not(.Navbar__Link--active)
+      border-bottom: 1px solid #020E26
+    &--active
+      border: 1px solid #020E26
+      background-color: white
+      color: #0B8AD9
+    &_list_item
+      list-style: none
+
+.Separator
+  width: 100%
+  height: 1px
+  margin: 0 2rem
+
+.Footer
+  position: relative
+  background-color: #0B8AD9
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  padding: 2rem
+  &__Social_media
+    margin-left: 1rem
+    color: white
+    &:first-of-type
+      margin-left: 0
+    &_container
+      display: flex
+      margin-bottom: 2rem
+  &__Copyright
+    color: white
+    font-weight: bold
+  &__To_top
+    height: 100%
+    filter: invert(44%) sepia(25%) saturate(6320%) hue-rotate(179deg) brightness(92%) contrast(91%)
+    &_container
+      position: absolute
+      top: 0
+      right: 0
+      margin: 1rem
+      padding: 0.5rem
+      height: 2rem
+      background-color: white
+      border-radius: 9999px

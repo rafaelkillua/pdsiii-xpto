@@ -1,0 +1,113 @@
+.Section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Title {
+  width: 100%;
+  margin: 2rem 2rem 0 2rem;
+  padding: 1rem 0;
+  background-color: #2980B9;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px #000;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Signup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.Signup__Logo {
+  margin: 0 2rem 2rem 2rem;
+  height: 12rem;
+}
+.Signup__Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.Signup__Input {
+  background-color: white;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border-radius: 4px;
+  width: 90%;
+}
+.Signup__Input:focus {
+  outline: none;
+}
+.Signup__Input_container {
+  width: 100%;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.Signup__Input_label {
+  width: 10%;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.Signup__Button_submit {
+  -webkit-appearance: none;
+  margin: unset;
+  display: inline;
+  cursor: pointer;
+  background-color: #2980B9;
+  color: white;
+  border: 0;
+  padding: 1rem 1.5rem;
+  margin-left: 2rem;
+  border-radius: 4px;
+}
+.Signup__Button_submit:hover {
+  opacity: 0.75;
+}
+.Signup__Button_signup {
+  -webkit-appearance: none;
+  text-decoration: none;
+  margin: unset;
+  display: inline;
+  cursor: pointer;
+  border: 1px solid #2980B9;
+  color: #2980B9;
+  background-color: white;
+  padding: 0.75rem 4rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.Signup__Button_signup:hover {
+  opacity: 0.75;
+}
+.Signup__Actions {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+.Signup__Forgot_password {
+  text-decoration: none;
+}
+.Signup__Forgot_password:visited {
+  text-decoration: none;
+  color: #2980B9;
+}
+.Signup__Forgot_password:hover {
+  opacity: 0.75;
+}
+
+/*# sourceMappingURL=cadastro.css.map */
